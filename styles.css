@@ -3670,3 +3670,14 @@ body:has(#contact:target) .navbar a[href="#contact"]::after {
   box-shadow: none !important;
   border: 0 !important;
 }
+
+ol.info-ol {
+  list-style: none !important;
+  margin-left: 0;
+  padding-left: 0;
+  counter-reset: none;
+}
+ol.info-ol > li {
+  list-style: none !important;
+  counter-increment: none;
+}
