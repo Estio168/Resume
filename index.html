@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Titillium+Web:wght@200;300;400;600;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="scanlines"></div>
+    <div class="grid-pattern"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <div class="logo-container">
+                    <div class="logo-icon">ET</div>
+                    <div class="logo-text">Resume</div>
+                </div>
+            </a>
+
+            <input id="nav-toggle" class="nav-toggle" type="checkbox" aria-label="Toggle navigation" />
+            <label for="nav-toggle" class="nav-toggle-btn" aria-controls="navbarNav" aria-expanded="false">
+                <span class="line"></span><span class="line"></span><span class="line"></span>
+            </label>
+
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificate">Certificate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container hero-content text-center">
+            <h1 class="text-glitch">Hi, I'm <span>KITTIMASAK JAMSON</span></h1>
+            <p>Second-year Computer Engineering & AI student</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn-cyber">About Me</a>
+            </div>
+        </div>
+    </header>
+
+    <hr class="cyber-divider">
+
+    <section id="about" class="reveal about section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2 class="glitch-effect" data-text="About Me">About Me</h2>
+                <p>A brief introduction about myself, my background, and what I do.</p>
+            </div>
+
+            <div class="cyber-box" data-aos="fade-up">
+                <div class="cyber-box-inner">
+                    <div class="cyber-box-corners">
+                        <div class="cyber-corner corner-tl"></div>
+                        <div class="cyber-corner corner-tr"></div>
+                        <div class="cyber-corner corner-bl"></div>
+                        <div class="cyber-corner corner-br"></div>
+                    </div>
+
+                    <div class="row align-items-center g-4">
+                        <div class="col-12 col-md-4 text-center">
+                            <div class="avatar">
+                                <img src="images/me2.png" alt="Display photo"
+                                    style="width:100%; height:100%; object-fit:cover; display:block;">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h1 class="profile-name mb-2">Kittimasak Jamson</h1>
+                            <p class="mb-1"><em>Computer Engineering &amp; Artificial Intelligence</em></p>
+                            <p class="mb-1">Faculty of Engineering and Technology</p>
+                            <p class="mb-1">
+                                Panyapiwat Institute of Management —
+                                <a class="link-pim" href="http://pim.ac.th" target="_blank" rel="noopener">pim.ac.th</a>
+                            </p>
+                            I’m a year-2 CPE/AI student who loves front-end polish and back-end logic.
+                            I’m building a portfolio with real projects you can click, read, and run.
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr class="cyber-divider">
+
+
+                    <div class="row about-row">
+                        <div class="col-12 col-md-6 mb-4">
+                            <div class="about-block">
+                                <div class="about-block-header">
+                                    <i class="fas fa-user-circle about-icon"></i>
+                                    <h3>Personal Info</h3>
+                                </div>
+
+                                <div class="about-block-content">
+                                    <ol class="info-ol">
+                                        <li class="info-item">
+                                            <div class="info-item-label">
+                                                <i class="fas fa-id-card"></i><span> Name</span>
+                                            </div>
+                                            <div class="info-item-value">Kittimasak Jamson</div>
+                                        </li>
+                                        <li class="info-item">
+                                            <div class="info-item-label">
+                                                <i class="fas fa-phone"></i><span> Phone</span>
+                                            </div>
+                                            <div class="info-item-value">066-969-6969</div>
+                                        </li>
+                                        <li class="info-item">
+                                            <div class="info-item-label">
+                                                <i class="fa-solid fa-envelope"></i><span> Gmail</span>
+                                            </div>
+                                            <div class="info-item-value">6752300917&#xfe6b;stu.pim.ac.th</div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-4">
+                            <div class="about-block">
+                                <div class="about-block-header">
+                                    <i class="fas fa-briefcase about-icon"></i>
+                                    <h3>Professional Info</h3>
+                                </div>
+
+                                <div class="about-block-content">
+                                    <ol class="info-ol">
+                                        <li class="info-item">
+                                            <div class="info-item-label">
+                                                <i class="fab fa-github"></i><span> GitHub</span>
+                                            </div>
+                                            <div class="info-item-value"><a href="https://github.com/Estio168"
+                                                    target="_blank">Estio168</a></div>
+                                        </li>
+                                        <li class="info-item">
+                                            <div class="info-item-label">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                                <span> LinkedIn</span>
+                                            </div>
+                                            <div class="info-item-value"><a
+                                                    href="https://www.linkedin.com/in/kittimasak-jamson-209943385/"
+                                                    target="_blank">Kittimasak Jamson</a></div>
+                                        </li>
+                                        <li class="info-item">
+                                            <div class="info-item-label">
+                                                <i class="fas fa-map-marker-alt"></i><span> Location</span>
+                                            </div>
+                                            <div class="info-item-value">Nonthaburi, Thailand</div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-1">
+                        <a href="#contact" class="btn-cyber">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="cyber-divider">
+
+    <section id="skills" class="reveal skills section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2 class="glitch-effect" data-text="My Skills">My Skills</h2>
+                <p>These are the technologies and frameworks I work with.</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="cyber-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cyber-box-inner skill-item">
+                        <div class="cyber-box-corners">
+                            <div class="cyber-corner corner-tl"></div>
+                            <div class="cyber-corner corner-tr"></div>
+                            <div class="cyber-corner corner-bl"></div>
+                            <div class="cyber-corner corner-br"></div>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="images/Java.png" alt="Java (OOP)">
+                        </div>
+                        <div class="skill-title">Java (OOP)</div>
+                        <div class="skill-percentage">
+                            <div>Proficiency</div>
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cyber-box-inner skill-item">
+                        <div class="cyber-box-corners">
+                            <div class="cyber-corner corner-tl"></div>
+                            <div class="cyber-corner corner-tr"></div>
+                            <div class="cyber-corner corner-bl"></div>
+                            <div class="cyber-corner corner-br"></div>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="images/HTML5.png" alt="HTML 5">
+                        </div>
+                        <div class="skill-title">HTML 5</div>
+                        <div class="skill-percentage">
+                            <div>Proficiency</div>
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cyber-box-inner skill-item">
+                        <div class="cyber-box-corners">
+                            <div class="cyber-corner corner-tl"></div>
+                            <div class="cyber-corner corner-tr"></div>
+                            <div class="cyber-corner corner-bl"></div>
+                            <div class="cyber-corner corner-br"></div>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="images/CSS3.png" alt="CSS 3">
+                        </div>
+                        <div class="skill-title">CSS 3</div>
+                        <div class="skill-percentage">
+                            <div>Proficiency</div>
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="cyber-box-inner skill-item">
+                        <div class="cyber-box-corners">
+                            <div class="cyber-corner corner-tl"></div>
+                            <div class="cyber-corner corner-tr"></div>
+                            <div class="cyber-corner corner-bl"></div>
+                            <div class="cyber-corner corner-br"></div>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="images/JS.png" alt="JavaScript">
+                        </div>
+                        <div class="skill-title">JavaScript</div>
+                        <div class="skill-percentage">
+                            <div>Proficiency</div>
+                            <span>40%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-box" data-aos="fade-up" data-aos-delay="500">
+                    <div class="cyber-box-inner skill-item">
+                        <div class="cyber-box-corners">
+                            <div class="cyber-corner corner-tl"></div>
+                            <div class="cyber-corner corner-tr"></div>
+                            <div class="cyber-corner corner-bl"></div>
+                            <div class="cyber-corner corner-br"></div>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="images/Bootstrap.png" alt="Bootstrap">
+                        </div>
+                        <div class="skill-title">Bootstrap</div>
+                        <div class="skill-percentage">
+                            <div>Proficiency</div>
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-box" data-aos="fade-up" data-aos-delay="600">
+                    <div class="cyber-box-inner skill-item">
+                        <div class="cyber-box-corners">
+                            <div class="cyber-corner corner-tl"></div>
+                            <div class="cyber-corner corner-tr"></div>
+                            <div class="cyber-corner corner-bl"></div>
+                            <div class="cyber-corner corner-br"></div>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="images/Node.js.png" alt="NodeJS">
+                        </div>
+                        <div class="skill-title">NodeJS</div>
+                        <div class="skill-percentage">
+                            <div>Proficiency</div>
+                            <span>45%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="cyber-divider">
+
+    <section id="resume" class="reveal resume section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2 class="glitch-effect" data-text="My Resume">My Education & Work Experience</h2>
+                <p>My education history and professional experience.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cyber-box">
+                        <div class="cyber-box-inner resume-wrapper">
+                            <div class="cyber-box-corners">
+                                <div class="cyber-corner corner-tl"></div>
+                                <div class="cyber-corner corner-tr"></div>
+                                <div class="cyber-corner corner-bl"></div>
+                                <div class="cyber-corner corner-br"></div>
+                            </div>
+                            <h3>Education</h3>
+                            <div class="timeline">
+                                <div class="timeline-item" id="edu-item-1">
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">2024 - Present</span>
+                                        <h4>Panyapiwat Institute of Management</h4>
+                                        <p>Computer Engineering and Artificial Intelligence</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item" id="edu-item-2">
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">2017 - 2023</span>
+                                        <h4>Phitsanulok Pittayakom School</h4>
+                                        <p>Computer Engineering and Artificial Intelligence</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cyber-box">
+                        <div class="cyber-box-inner resume-wrapper">
+                            <div class="cyber-box-corners">
+                                <div class="cyber-corner corner-tl"></div>
+                                <div class="cyber-corner corner-tr"></div>
+                                <div class="cyber-corner corner-bl"></div>
+                                <div class="cyber-corner corner-br"></div>
+                            </div>
+                            <h3>Experience</h3>
+                            <div class="timeline">
+                                <div class="timeline-item" id="exp-item-1">
+                                    <div class="timeline-content">
+                                        <span class="timeline-date">2025 - 2025</span>
+                                        <h4>CP ALL Public Co., Ltd.</h4>
+                                        <h5>Trainee at 7-Eleven</h5>
+                                        <p>Assisted in store operations including customer service, cashiering, and
+                                            stock management, while developing teamwork and responsibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="cyber-divider">
+
+    <section id="certificate" class="reveal">
+        <div class="container py-5">
+            <div class="section-title mb-4">
+                <h2>Certificate</h2>
+                <p>My certifications and achievements.</p>
+            </div>
+
+            <div class="row justify-content-center g-4">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <article class="cert-card mx-auto" style="max-width:900px;">
+                        <div class="cert-frame cyber-box" data-aos="fade-up">
+                            <div class="cyber-box-corners" aria-hidden="true">
+                                <span class="cyber-corner corner-tl"></span>
+                                <span class="cyber-corner corner-tr"></span>
+                                <span class="cyber-corner corner-bl"></span>
+                                <span class="cyber-corner corner-br"></span>
+                            </div>
+                            <figure class="cert-image mb-0">
+                                <img src="images/AWS.jpg" alt="AWS Tech Alliance" class="img-fluid d-block mx-auto">
+                            </figure>
+                            <header class="cert-header text-center">
+                                <h3 class="cert-title">AWS Tech Alliance - Gosoft</h3>
+                                <p class="cert-meta">17 October 2025</p>
+                            </header>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-10 col-lg-8">
+                    <article class="cert-card mx-auto" style="max-width:900px;">
+                        <div class="cert-frame cyber-box" data-aos="fade-up">
+                            <div class="cyber-box-corners" aria-hidden="true">
+                                <span class="cyber-corner corner-tl"></span>
+                                <span class="cyber-corner corner-tr"></span>
+                                <span class="cyber-corner corner-bl"></span>
+                                <span class="cyber-corner corner-br"></span>
+                            </div>
+                            <figure class="cert-image mb-0">
+                                <img src="images/Cybersecurity.png" alt="Cybersecurity"
+                                    class="img-fluid d-block mx-auto">
+                            </figure>
+                            <header class="cert-header text-center">
+                                <h3 class="cert-title">Cybersecurity - Upskill/Reskill</h3>
+                                <p class="cert-meta">16 October 2025</p>
+                            </header>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="cyber-divider">
+
+    <section id="contact" class="reveal contact section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2 class="glitch-effect" data-text="Contact Me">Contact Me</h2>
+                <p>If you'd like to get in touch, feel free to send me a message using the form below.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10" data-aos="fade-up" data-aos-delay="200">
+                <div class="cyber-box contact-form">
+                    <div class="cyber-box-inner contact-form-inner">
+                        <div class="cyber-box-corners">
+                            <div class="cyber-corner corner-tl"></div>
+                            <div class="cyber-corner corner-tr"></div>
+                            <div class="cyber-corner corner-bl"></div>
+                            <div class="cyber-corner corner-br"></div>
+                        </div>
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" class="form-control"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" id="email" class="form-control"
+                                        placeholder="Your Email" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="subject" id="subject" class="form-control"
+                                        placeholder="Subject" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" id="message" class="form-control"
+                                        placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <button type="submit" class="btn-cyber w-100">Send Message</button>
+                                </div>
+                                <div class="col-12 mt-3"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="cyber-divider">
+
+    <section id="download" class="reveal featured-slider py-5">
+        <div class="container">
+            <div class="section-title mb-4">
+                <h2 class="mb-3">MY RESUME</h2>
+                <p>Download Here </p>
+                <div></div>
+            </div>
+
+            <div class="a4-frame landscape">
+                <div class="a4-canvas">
+                    <img src="images/resume.jpg" alt="Featured A4" />
+                </div>
+                <div class="a4-actions">
+                    <a class="btn btn-cv" href="images/mamapig.jpg" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
